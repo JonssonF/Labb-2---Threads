@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Diagnostics;
 
 namespace Labb_2___Threads
 {
@@ -6,10 +7,7 @@ namespace Labb_2___Threads
     {
         static void Main(string[] args)
         {
-            Car Toyota = new Car("Toyota", 120);
-            Car Volvo = new Car("Volvo", 120);
-            Car Lamborghini = new Car("Lamborghini", 120);
-
-         
-    }
+            RaceController.AppRun();
+        }
+}
 }
